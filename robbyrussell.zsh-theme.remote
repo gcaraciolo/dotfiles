@@ -1,6 +1,5 @@
 local machine="remote:"
-local id="%{$fg_bold[green]%}${machine}%n"
-local id="%{$fg_bold[red]%}%n"
+local id="%{$fg_bold[red]%}${machine}%n"
 local ret_status="%{$fg_bold[red]%}➜ "
 PROMPT='${id} ${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 
