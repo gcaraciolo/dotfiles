@@ -2,7 +2,8 @@
 
   "env":{
     "browser": true,
-    "node": true
+    "node": true,
+    "mocha": true
   },
   "globals":{
     "jQuery":true,
@@ -49,12 +50,6 @@
     "no-new-require":2,
     "no-process-exit":2,
     "no-with":2,
-    "no-unused-expressions": [
-      "error", {
-        "allowShortCircuit": true,
-        "allowTernary": true
-      }
-    ],
     "no-useless-escape":2,
     "no-floating-decimal":2,
     "no-implied-eval":2,
