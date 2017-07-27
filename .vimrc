@@ -22,11 +22,6 @@ nnoremap <Down> <NOP>
 nnoremap <Left> <NOP>
 nnoremap <Right> <NOP>
 
-nnoremap K <C-u> " move down fast
-nnoremap J <C-d> " move up fast
-nnoremap H ^ " move left fast
-nnoremap L $ " move right fast
-
 " settings
 
 set number
