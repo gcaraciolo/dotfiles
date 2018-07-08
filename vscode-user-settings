@@ -1,0 +1,24 @@
+{
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.idea": true,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": true,
+        "**/.*": false,
+        "**/*": false,
+        "**/*.pyc": true,
+    },
+    "editor.fontFamily": "'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier','monospace'",
+    "editor.lineHeight": 20,
+    "editor.fontSize": 12,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.rulers": [
+            79,
+        ]
+    }
+}
