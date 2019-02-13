@@ -30,6 +30,9 @@ brew install nginx
 Tema `Colbat Neon`
 Configuração [aqui](./iterm-profile.json)
 
+## Wallpaper
+`Map of computer science`
+
 # Links simbolicos
 
 ```sh
