@@ -27,7 +27,7 @@ brew install nginx
 
 ## Iterm
 Tema `Colbat Neon`
-Configuração [aqui](../iterm-profile.json)
+Configuração [aqui](./iterm-profile.json)
 
 # Links simbolicos
 
