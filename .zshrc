@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias workspace="~/Dropbox/Guilherme/Dropbox/Work/workspace"
+alias ws="/usr/local/var/www"
 
 #CUSTOMIZATIONS
 
