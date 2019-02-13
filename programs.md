@@ -5,6 +5,7 @@
 * Visual Studio Code
 * Sublime
 * Postico
+* Postman
 * Postgres App
 * Dropbox
 * Spotify
