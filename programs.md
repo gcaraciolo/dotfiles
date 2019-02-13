@@ -23,6 +23,12 @@
 brew install nginx
 ```
 
+# Configurações
+
+## Iterm
+Tema `Colbat Neon`
+Configuração (aqui)[../iterm-profile.json]
+
 # Links simbolicos
 
 ```sh
