@@ -1,5 +1,6 @@
 # Programas que utilizo
 
+* Google Chrome
 * Visual Studio
 * Visual Studio Code
 * Sublime
