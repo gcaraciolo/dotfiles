@@ -34,6 +34,11 @@ Configuração [aqui](./iterm-profile.json)
 ## Wallpaper
 `Map of computer science`
 
+## Npm
+```sh
+npm config set prefix /usr/local
+```
+
 # Links simbolicos
 
 ```sh
