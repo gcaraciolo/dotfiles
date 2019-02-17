@@ -66,5 +66,4 @@ ln -s $HOME/Dropbox/Guilherme/Work/Files/.vim
 ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/files/desktop/.composer
 ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/files/desktop/.npmrc
 ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/files/desktop/.vscode
-ln -s $HOME/Dropbox/Guilherme/Work/Files/.oh-my-zsh
 ```
