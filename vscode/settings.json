@@ -1,0 +1,36 @@
+{
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icon-theme",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1584965589845,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "editor.rulers": [80],
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "window.titleBarStyle": "native",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "search.exclude": {
+        "**/build/*": true
+    },
+    "emmet.includeLanguages": {
+        "erb": "html"
+    },
+    "files.watcherExclude": {
+        "**/vendor/**": true
+    },
+    "files.exclude": {
+        "**/storage/framework/views/**": true,
+        "**/vendor/**": true
+    },
+    "workbench.sideBar.location": "right"
+}
