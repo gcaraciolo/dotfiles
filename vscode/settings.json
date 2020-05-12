@@ -1,36 +1,66 @@
 {
-    "window.zoomLevel": 0,
-    "workbench.iconTheme": "vscode-icon-theme",
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-    "php-cs-fixer.lastDownload": 1584965589845,
+    "typescript.preferences.quoteStyle": "single",
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
-    "editor.rulers": [80],
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
     "editor.minimap.enabled": false,
-    "extensions.ignoreRecommendations": true,
-    "window.titleBarStyle": "native",
-    "[json]": {
+    "editor.suggestSelection": "first",
+    "editor.rulers": [
+        80
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/build": true
+    },
+    "php-cs-fixer.lastDownload": 1572001415196,
+    "window.zoomLevel": 0,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveTimeout": 5000,
+    "java.jdt.ls.vmargs": "-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -javaagent:\"/Users/gcaraciolo/.vscode/extensions/gabrielbb.vscode-lombok-0.9.9/server/lombok.jar\"",
+    "python.jediEnabled": false,
+    "ruby.useBundler": true, //run non-lint commands with bundle exec
+    "ruby.useLanguageServer": true, // use the internal language server (see below)
+    "ruby.lint": {
+        "rubocop": {
+            "useBundler": true // enable rubocop via bundler
+        },
+        "reek": {
+            "useBundler": true // enable reek via bundler
+        }
+    },
+    "ruby.format": "rubocop", // use rubocop for formatting
+    "solargraph.useBundler": true,
+    "emmet.includeLanguages": {
+        "*.erb": "html"
+    },
+    "files.associations": {
+        "*.erb": "erb"
+    },
+    "workbench.sideBar.location": "right",
+    "search.exclude": {
+        "**/build": true,
+        "**/dist": true
+    },
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/vendor/**/{Tests,tests}/**"
+    ],
+    "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "search.exclude": {
-        "**/build/*": true
-    },
-    "emmet.includeLanguages": {
-        "erb": "html"
-    },
-    "files.watcherExclude": {
-        "**/vendor/**": true
-    },
-    "files.exclude": {
-        "**/storage/framework/views/**": true,
-        "**/vendor/**": true
-    },
-    "workbench.sideBar.location": "right"
+    "workbench.colorTheme": "GitHub Plus",
+    "terminal.external.osxExec": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/zsh"
 }
