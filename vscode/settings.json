@@ -62,5 +62,9 @@
     },
     "workbench.colorTheme": "GitHub Plus",
     "terminal.external.osxExec": "/bin/zsh",
-    "terminal.integrated.shell.osx": "/bin/zsh"
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.colorTheme": "Github",
+    "editor.fontFamily": "'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier','monospace'",
+    "editor.lineHeight": 20,
+    "editor.fontSize": 12
 }
