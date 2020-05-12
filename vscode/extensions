@@ -1,8 +1,15 @@
-code --install-extension william-voyek.vscode-nginx
-code --install-extension eamodio.gitlens
-code --install-extension esbenp.prettier-vscode
-
-# Laravel development
+code --install-extension aliariff.vscode-erb-beautify
 code --install-extension bmewburn.vscode-intelephense-client
-code --install-extension onecentlin.laravel-blade
-code --install-extension onecentlin.laravel5-snippets
+code --install-extension bung87.vscode-gemfile
+code --install-extension CraigMaslowski.erb
+code --install-extension EditorConfig.EditorConfig
+code --install-extension esbenp.prettier-vscode
+code --install-extension jbockle.jbockle-format-files
+code --install-extension karunamurti.haml
+code --install-extension kumar-harsh.graphql-for-vscode
+code --install-extension ms-python.python
+code --install-extension naumovs.color-highlight
+code --install-extension rebornix.ruby
+code --install-extension sianglim.slim
+code --install-extension thenikso.github-plus-theme
+code --install-extension wingrunr21.vscode-ruby
