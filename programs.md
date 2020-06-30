@@ -53,7 +53,7 @@ ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/files/aws/leet.pem && chmod 400 le
 ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/files/postgrain/production/aws/postgrain.pem && chmod 400 postgrain.pem
 ln -s $HOME/Dropbox/Guilherme/Work/Files/env-vars-prod/donna-ec2.pem && chmod 400 donna-ec2.pem
 cd $HOME/.ssh
-ln -s $HOME/Users/gcaraciolo/Dropbox/Guilherme/Work/Leet\ Tech/files/ssh/config
+ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/ssh/config
 ln -s $HOME/Dropbox/Guilherme/Work/Files/gcaraciolo-GitHub
 ln -s $HOME/Dropbox/Guilherme/Work/Files/gcaraciolo-GitHub.pub
 ln -s $HOME/Dropbox/Guilherme/Work/Files/id_rsa
@@ -63,7 +63,4 @@ cd $HOME
 ln -s $HOME/Dropbox/Guilherme/Work/Files/.zshrc
 ln -s $HOME/Dropbox/Guilherme/Work/Files/.oh-my-zsh
 ln -s $HOME/Dropbox/Guilherme/Work/Files/.vim
-ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/files/desktop/.composer
-ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/files/desktop/.npmrc
-ln -s $HOME/Dropbox/Guilherme/Work/Leet\ Tech/files/desktop/.vscode
 ```
