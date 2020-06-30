@@ -36,7 +36,7 @@ Configuração [aqui](./iterm-profile.json)
 
 ## Npm
 ```sh
-npm config set prefix /usr/local
+npm config set prefix ~/.local
 ```
 
 # Links simbolicos
