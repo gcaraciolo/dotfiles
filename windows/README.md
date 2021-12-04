@@ -2,6 +2,34 @@
 
 Problemas encontrados e soluções para configurar um ambiente de desenvolvimento no Windows com WSL.
 
+## slow git clone: file system in general taking too long to write/read files & slow networking bandwidth
+As operações de I/O em geral estão lentas, apenas no ambiente wsl.
+
+Certifique-se de que tudo que precisa está no diretório linux. projetos, etc. O wsl pode ser lento lendo arquivos do Windows.
+
+No ininio estava meio lento o meu wsl, fiz algumas coisas, mas me perdi no caminho e não sei exatamente se houve um problema, ou era minha internet q estava lenta e eu achei q a escrita no disco estava lenta durante o git clone dos projetos.
+
+__Rereência:__ https://github.com/microsoft/WSL/issues/4197
+
+
+
+## slow git clone: slow networking bandwidth
+A comunicação na internet é ruim, apenas no ambiente wsl. Pode ser um problema no dns simples de dns.
+
+**Solução:**
+Alterar o dns do wsl. Antes de fazer isso, ver [Laravel valet](## Laravel valet) abaixo.
+```sh
+sudo rm /etc/resolv.conf
+sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'
+sudo bash -c 'echo "[network]" > /etc/wsl.conf'
+sudo bash -c 'echo "generateResolvConf = false" >> /etc/wsl.conf'
+sudo chattr +i /etc/resolv.conf
+```
+
+Acredito que as duas se completão. Me perdi no meio do processo dessas soluções, mas executando nessa ordem, deve funcionar.
+
+__Referência:__: https://github.com/microsoft/WSL/issues/4901#issuecomment-955600309
+
 ## dnsmask: custom domain not accessible on windows' browsers
 O laravel valet instala o dnsmask para permitir que domínio customizado possa ser utilizado. Por exemplo, domínios que terminarem com `*.test` são resolvidos no ip 127.0.0.1.
 
