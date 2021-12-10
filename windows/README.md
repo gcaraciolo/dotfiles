@@ -90,3 +90,13 @@ $ sudo chown -R ubuntu:ubuntu /tmp
 ```
 
 **Referência:** https://github.com/microsoft/vscode-remote-release/issues/5389
+
+## WSL memory: Increase wsl memory
+
+O WSL tem uma memória reduzida e se algum processo pesado estiver rodando no wsl o windows pode matar o processo.
+Aconteceu com o postgrain-app rodando os apps shell e instamizer.
+
+**Solução:**
+Configurar o wsl com um limite de memória alto. Ver como fazer na referência.
+
+**Referência:** https://github.com/microsoft/WSL/issues/4166#issuecomment-526725261
