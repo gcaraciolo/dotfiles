@@ -17,7 +17,7 @@ No ininio estava meio lento o meu wsl, fiz algumas coisas, mas me perdi no camin
 A comunicação na internet é ruim, apenas no ambiente wsl. Pode ser um problema no dns simples de dns.
 
 **Solução:**
-Alterar o dns do wsl. Antes de fazer isso, ver [Laravel valet](## Laravel valet) abaixo.
+Alterar o dns do wsl executando os seguintes comandos:
 
 ```sh
 sudo rm /etc/resolv.conf
