@@ -1,24 +1,105 @@
 {
-    "window.zoomLevel": 0,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.idea": true,
-        "**/.svn": false,
-        "**/.hg": false,
-        "**/CVS": false,
-        "**/.DS_Store": true,
-        "**/.*": false,
-        "**/*": false,
-        "**/*.pyc": true,
-    },
-    "editor.fontFamily": "'SFMono-Regular','Consolas','Liberation Mono','Menlo','Courier','monospace'",
-    "editor.lineHeight": 20,
-    "editor.fontSize": 12,
-    "workbench.activityBar.visible": true,
-    "editor.minimap.enabled": false,
-    "[python]": {
-        "editor.rulers": [
-            79,
-        ]
-    }
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "typescript.preferences.quoteStyle": "single",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "[python]": {
+    "editor.rulers": [
+      80
+    ]
+  },
+  "editor.rulers": [
+    120
+  ],
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/build": true
+  },
+  "emmet.includeLanguages": {
+    "*.erb": "html"
+  },
+  "files.associations": {
+    "*.erb": "erb"
+  },
+  "search.exclude": {
+    "**/build": true,
+    "**/dist": true
+  },
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/node_modules/**",
+    "**/vendor/**/{Tests,tests}/**"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.external.osxExec": "/bin/zsh",
+  "editor.fontFamily": "ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace",
+  "editor.lineHeight": 18,
+  "editor.fontSize": 15,
+  "intelephense.rename.exclude": [
+    "**/vendor/**"
+  ],
+  "extensions.ignoreRecommendations": false,
+  "workbench.editor.showTabs": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "settingsSync.ignoredExtensions": [
+    "vscjava.vscode-java-debug",
+    "vscjava.vscode-java-pack",
+    "stripe.vscode-stripe",
+    "vscjava.vscode-java-test"
+  ],
+  "git.confirmSync": false,
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "git.enableSmartCommit": true,
+  // php namespace resolver
+  "namespaceResolver.sortOnSave": true,
+  "namespaceResolver.showMessageOnStatusBar": true,
+  "workbench.statusBar.visible": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "remote.SSH.remotePlatform": {
+    "139.177.205.237": "linux",
+    "homeserver": "linux",
+    "debugs.me": "linux"
+  },
+  "phpstan.suppressTimeoutMessage": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "explorer.confirmDragAndDrop": false,
+  "npm.keybindingsChangedWarningShown": true,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1666707753124
 }
