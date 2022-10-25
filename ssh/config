@@ -1,0 +1,103 @@
+# ----------------------------
+#
+Host *
+ServerAliveInterval 60
+
+Host github.com
+ Hostname ssh.github.com
+ Port 443
+
+# --- Home LAN --- #
+Host homeserver
+  Hostname 192.168.1.10
+  User homeserver
+
+# --- Leet services ---
+
+Host igbatrics
+  Hostname 45.79.200.39
+  User root
+
+Host intranet
+  Hostname 45.79.207.55
+  User root
+
+Host repost
+  Hostname 18.236.96.172
+  User ubuntu
+  IdentityFile ~/.ssh/files/repost.pem
+
+# --- Postgrain --- #
+
+Host postgrain-app
+  Hostname 52.40.185.31
+  User ubuntu
+  IdentityFile ~/.ssh/files/lightsail.pem
+
+Host postgrain-site
+  Hostname 34.211.102.71
+  User ubuntu
+  IdentityFile ~/.ssh/files/leet2020.pem
+
+Host blog.linklist.bio
+  Hostname 34.220.181.5
+  User ubuntu
+  IdentityFile ~/.ssh/files/leet2020.pem
+
+
+Host postgrain-intranet
+  Hostname 54.191.77.68
+  User ubuntu
+  IdentityFile ~/.ssh/files/leet.pem
+
+Host postgrain-development
+  Hostname 34.213.4.131
+  User ubuntu
+  IdentityFile ~/.ssh/files/leet.pem
+
+Host postgrain-homolog-app
+  Hostname 35.165.174.255
+  User ubuntu
+  IdentityFile ~/.ssh/files/leet.pem
+
+Host postgrain-homolog-app-2
+  Hostname 34.212.0.22
+  User ubuntu
+  IdentityFile ~/.ssh/files/postgrain.pem
+
+Host postgrain-homolog-api
+  Hostname 34.211.55.213
+  User ubuntu
+  IdentityFile ~/.ssh/files/leet.pem
+
+Host postgrain-publisher-slave-3
+  Hostname 54.244.43.225
+  User ubuntu
+  IdentityFile ~/.ssh/files/publisher.pem
+
+Host postgrain-publisher-slave-4
+  Hostname 18.237.160.254
+  User ubuntu
+  IdentityFile ~/.ssh/files/publisher.pem
+
+Host postgrain-publisher-slave-5
+  Hostname 34.212.230.123
+  User ubuntu
+  IdentityFile ~/.ssh/files/publisher.pem
+
+# --- Debugs ME --- #
+
+Host debugs.me
+  Hostname 139.177.205.237
+  User root
+
+Host cloud9
+    IdentityFile ~/.ssh/id_rsa-cloud9
+    User ec2-user
+    HostName i-0ef3261e73063867f
+    ProxyCommand sh -c "~/.ssh/ssm-proxy.sh %h %p"
+
+Host squid
+  Hostname 54.189.16.137
+  User ubuntu
+  IdentityFile ~/.ssh/files/leet2020.pem
